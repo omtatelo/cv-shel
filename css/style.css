@@ -1,0 +1,30 @@
+body{
+	font-family: Raleway;
+	letter-spacing: 3px;
+	background-image: url(../img/marca-de-aguaA.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center bottom;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
+
+header{
+	padding-top: 50px;
+}
+
+.titulo-ya a img{
+	text-align: center;
+}
+
+.navbar-brand{
+	text-align: center;
+}
