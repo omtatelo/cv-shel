@@ -1,6 +1,6 @@
 body{
 	font-family: Raleway;
-	letter-spacing: 3px;
+	
 	background-image: url(../img/marca-de-aguaA.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -15,6 +15,11 @@ h1{
 h2{
 	text-transform: uppercase;
 	font-size: 1.1em;
+	letter-spacing: 3px;
+}
+
+h3{
+	font-family: 'Zeyada', cursive;	
 }
 
 header{
@@ -25,6 +30,24 @@ header{
 	text-align: center;
 }
 
-.navbar-brand{
-	text-align: center;
+nav ul li a{
+	text-transform: uppercase;
+	color: black;
+}
+
+nav {
+	background-color: white;
+}
+
+p{
+	font-size: .8em;
+}
+
+.cv-seccion{
+	padding-top: 50px;
+
+}
+
+.icono-suave{
+	height: 120px;
 }
