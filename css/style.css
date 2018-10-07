@@ -1,12 +1,25 @@
 body{
 	font-family: Raleway;
 	
-	background-image: url(../img/marca-de-aguaA.png);
+	/*background-image: url(../img/marca-de-aguaA.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center bottom;*/
+	text-align: center;
+	background-image: url(../img/back-porta.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center bottom;
-	text-align: center;
+	font-size: .8em;
 }
+
+header img {
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-left: 10px;
+}
+
+
 
 h1{
 	text-align: center;
@@ -20,6 +33,8 @@ h2{
 
 h3{
 	font-family: 'Zeyada', cursive;	
+	font-size: 2.5em;
+	padding-top: 20px;
 }
 
 header{
@@ -32,15 +47,26 @@ header{
 
 nav ul li a{
 	text-transform: uppercase;
-	color: black;
+	color: white;
 }
 
 nav {
-	background-color: white;
+	background-color: black;
+
 }
 
-p{
-	font-size: .8em;
+
+
+/*#fotos{
+	background-image: url(../img/back-porta.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center bottom;
+}*/
+
+.icono-suave{
+	height: 120px;
+	opacity: 0.5;
 }
 
 .cv-seccion{
@@ -48,6 +74,45 @@ p{
 
 }
 
-.icono-suave{
-	height: 120px;
+.division{
+	width: 10px;
+	height: 10px;
+}
+
+.exp{
+	text-align: left;
+	font-size: 1.4em;
+	padding: 0px 200px 0px 200px;
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .exp{
+	padding: 0px 100px 0px 100px;
+
+	}
+}
+
+@media only screen and (max-width: 993px) {
+    .exp{
+	padding: 0px 50px 0px 50px;
+
+	}
+}
+
+@media only screen and (max-width: 769px) {
+    .exp{
+	padding: 0px;
+
+	}
+}
+
+span{
+	display: block;
+}
+
+.card{
+	background-color:  black;
+	color: white;
+	opacity: 0.8;
 }
