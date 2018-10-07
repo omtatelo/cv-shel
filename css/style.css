@@ -47,7 +47,7 @@ header{
 
 nav ul li a{
 	text-transform: uppercase;
-	color: white;
+	color: beige;
 
 }
 
@@ -115,11 +115,21 @@ span{
 
 .card{
 	background-color:  black;
-	color: white;
+	color: beige;
 	opacity: 0.8;
 }
 
 .misdatos{
 	padding-top: 150px;
 	font-size: 1.3em;
+}
+
+a:hover{
+	color: #5e4b0f;
+	text-decoration: none;
+}
+
+a{
+	color: black;
+	text-decoration: none;
 }
