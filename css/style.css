@@ -48,10 +48,12 @@ header{
 nav ul li a{
 	text-transform: uppercase;
 	color: white;
+
 }
 
 nav {
 	background-color: black;
+	padding: 12px 0px 12px 0px;
 
 }
 
@@ -115,4 +117,9 @@ span{
 	background-color:  black;
 	color: white;
 	opacity: 0.8;
+}
+
+.misdatos{
+	padding-top: 150px;
+	font-size: 1.3em;
 }
